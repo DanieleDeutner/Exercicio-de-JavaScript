@@ -1,0 +1,80 @@
+body{
+    margin: 20px auto;
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    width: 80vw;
+}
+
+body>*{
+    border: 10px solid darkblue;
+    border-radius: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: darkgray;
+    background-color: red;
+    position: sticky;
+    top: 0;
+    height: 200px;
+}
+
+section{
+    margin-top: 50px;
+    padding:0 40px;
+}
+
+section>div{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    border: 2px dashed darkgray;
+    border-radius: 50px;
+    padding: 20px 0;
+}
+
+section button{
+    background-color: red;
+    border: 5px dotted darkblue;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#check-generos{
+    border: 1px solid darkblue;
+    display: flex;
+    border-radius: 5px;
+    width: 50%;
+    flex-wrap: wrap;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#relevancia{
+    border: 1px solid darkblue;
+    display: flex
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

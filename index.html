@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario de exemplo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>pesquisa sobre jogos eletronicos</h1>
+        <h2>informe nos sobres suas preferencias relativas a este tema em especifico.</h2>
+    </header>
+    <section>
+        <div>
+            <h3>sobre voce</h3>
+            <label for="nome">nome:</label>
+            <input name="nome" type="text">
+            <label for="idade">idade:</label>
+            <input name="idade" type="number" min="5" max="110">
+            <label for="email">email:</label>
+            <input name="email" type="email">
+            <label for="senha">senha:</label>
+            <input name="senha" type="password">
+        </div>
+        <div>
+            <h3>suas preferencias de entreterimento</h3>
+            <label for="plataforma">qual a plataforma vc usa pra jogar</label>
+            <select name="plataforma">
+                <option value="">escolha....</option>
+                <option value="ps">sony playstation</option>
+                <option value="ms">microsoft xbox</option>
+                <option value="nt">nintendo</option>
+                <option value="pc">computador</option>
+                <option value="sm">smartphone</option>
+            </select>
+            <label for="check-gereros">quais sao os seus generos preferidos?</label>
+            <div id="check-generos">
+                <label for="acao"><input name="acao" type="checkbox">acao</label>
+                <label for="rpg"><input name="rpg" type="checkbox">rpg</label>
+                <label for="simulacao"><input name="simulacao" type="checkbox">simulacao</label>
+                <label for="esporte"><input name="esporte" type="checkbox">esporte</label>
+                <label for="tiro"><input name="tiro" type="checkbox">tiro</label>
+                <label for="aventura"><input name="aventura" type="checkbox">aventura</label>
+                <label for="estrategia"><input name="estrategia" type="checkbox">estrategia</label>
+                <label for="plataforma"><input name="plataforma" type="checkbox">plataforma</label>
+                <label for="casual"><input name="casual" type="checkbox">casual</label>
+                <label for="luta"><input name="luta" type="checkbox">luta</label>
+            </div>
+            <label for="relevancia">qual a relevancia de cada um dos seguintes criterios para a sua experiencia:</label>
+            <div id="relevancia">
+                <div class="categoria"></div>
+                    <label for="historia">historia: </label>
+                    <div id="historia">
+                        <label for="h3"><input type="radio" name="h3">3</label>
+                        <label for="h2"><input type="radio" name="h2">2</label>
+                        <label for="h1"><input type="radio" name="h1">1</label>
+                        <label for="h0"><input type="radio" name="h0">0</label>
+                    </div>
+                <div class="categoria">
+                        <div class="categoria"></div>
+                        <label for="historia">historia: </label>
+                        <div id="historia">
+                            <label for="g3"><input type="radio" name="g3">3</label>
+                            <label for="g2"><input type="radio" name="g2">2</label>
+                            <label for="g1"><input type="radio" name="g1">1</label>
+                            <label for="g0"><input type="radio" name="g0">0</label>
+                        </div>
+                </div>
+                <div class="categoria">
+                        <div class="categoria"></div>
+                        <label for="jogabilidade">jogabilidade: </label>
+                        <div id="jogabilidade">
+                            <label for="h3"><input type="radio" name="h3">3</label>
+                            <label for="h2"><input type="radio" name="h3">2</label>
+                            <label for="h1"><input type="radio" name="h3">1</label>
+                            <label for="h0"><input type="radio" name="h3">0</label>
+                        </div>
+                </div>
+                <div class="categoria">
+                        <div class="categoria"></div>
+                        <label for="historia">historia: </label>
+                        <div id="historia">
+                            <label for="h3"><input type="radio" name="h3">3</label>
+                            <label for="h2"><input type="radio" name="h3">2</label>
+                            <label for="h1"><input type="radio" name="h3">1</label>
+                            <label for="h0"><input type="radio" name="h3">0</label>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button>enviar resposta</button>
+        </div>
+    </section>
+    <footer>
+        <p>Subdcribe to our Job Seeker Mailing List</p>
+        <div id="newsletterEmailInput" class="form-group newsletter-group-email">
+            <label for="newsletterEmail" class="form-label offscren"></label>
+            <input type="email" id="newsletterEmailInput" name="email" class="form-input newsletter-input-email" required placeholder="Enter Your Email Address" size="30" >
+
+        </div>
+        <p> <img src="imagem/email.jpg" alt=""> hello@twobytes.com.au</p>
+                <p> <span> Copyright © 2014 Two Bytes Consulting.</span>  <span> Terms & Policies. </span>  </p>
+                
+                <img src="imagem/like.jpg" alt="facebook">
+                <img src="imagem/Tweet.png" alt="twitter">
+    </footer>
+</body>
+</html>
